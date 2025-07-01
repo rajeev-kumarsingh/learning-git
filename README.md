@@ -137,3 +137,28 @@ Changes to be committed:
 ```bash
 git commit -m "type message here about your recent changes" #
 ```
+
+## ![git-commit](gitcommit.png)
+
+# Push the changes to GitHub Repository
+
+```bash
+git push origin main
+```
+
+> Output
+
+```bash
+git push origin main
+Enter passphrase for key '/Users/rajeevsingh/.ssh/id_ed25519':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 362.62 KiB | 1.50 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:rajeev-kumarsingh/learning-git.git
+   fd54e71..252ad48  main -> main
+```
+
+![gitpush](gitpush.png)
