@@ -98,8 +98,17 @@ git diff --cached
 
 - You can see that the default commit message contains the latest output of the `git status `command commented out and one empty line on top. You can remove these comments and type your commit message, or you can leave them there to help you remember what you’re committing.
   > `Note`: For an even more explicit reminder of what you’ve modified, you can pass the `-v` option to git commit. Doing so also puts the diff of your change in the editor so you can see exactly what changes you’re committing.
--
--
+
+## ![git commit command](./img/git-commit.png)
+
+- Now you’ve created your first commit! You can see that the commit has given you some output about itself: which branch you committed to (master), what SHA-1 checksum the commit has (6ac479e), how many files were changed, and statistics about lines added and removed in the commit.
+- Remember that the commit records the snapshot you set up in your staging area. Anything you didn’t stage is still sitting there modified; you can do another commit to add it to your history. Every time you perform a commit, you’re recording a snapshot of your project that you can revert to or compare to later.
+
+---
+
+## Skipping the Staging Area
+
+- Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow. If you want to skip the staging area, Git provides a simple shortcut. Adding the `-a` option to the `git commit` command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the `git add` part:
 -
 -
 -
