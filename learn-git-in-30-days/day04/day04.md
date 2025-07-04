@@ -45,3 +45,26 @@ Switch to branch 'main'
 - At this point, your project working directory is exactly the way it was before you started working on issue #53, and you can concentrate on your hotfix. This is an important point to remember: when you switch branches, Git resets your working directory to look like it did the last time you committed on that branch. It adds, removes, and modifies files automatically to make sure your working copy is what the branch looked like on your last commit to it.
 - Next, you have a hotfix to make. Let’s create a `hotfix` branch on which to work until it’s completed:
   ![hotfix branch](./img/hotfix-branch.png)
+  ![git branching 4](./img/basic-branching-4.png)
+  `Hotfix branch based on master/main`
+
+---
+
+- You can run your tests, make sure the `hotfix` is what you want, and finally merge the hotfix branch back into your `master/main` branch to deploy to production. You do this with the `git merge` command:
+  ![another commit from hotfix](./img/another-commit-from-hotfix.png)
+
+```bash
+git checkout main
+git merge hotfix
+```
+
+![git merge](./img/git-merge.png)
+
+---
+
+- You’ll notice the phrase “fast-forward” in that merge. Because the commit `C4` pointed to by the branch `hotfix` you merged in was directly ahead of the commit `C2` you’re on, Git simply moves the pointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things by moving the pointer forward because there is no divergent work to merge together — this is called a “fast-forward.”
+- Your change is now in the snapshot of the commit pointed to by the master branch, and you can deploy the fix.
+  ![git branching-5](./img/basic-branching-5.png)
+  `master is fast-forwarded to hotfix`
+
+---
