@@ -109,7 +109,8 @@ git diff --cached
 ## Skipping the Staging Area
 
 - Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow. If you want to skip the staging area, Git provides a simple shortcut. Adding the `-a` option to the `git commit` command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the `git add` part:
--
+  ![direct-commit-without-staging.png](./img/direct-commit-without-staging.png)
+- Notice how you don’t have to run git add on the README.md file in this case before you commit. That’s because the `-a` flag includes all changed files. This is convenient, but be careful; sometimes this flag will cause you to include unwanted changes.
 -
 -
 -
