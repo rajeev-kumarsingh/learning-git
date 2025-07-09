@@ -34,3 +34,5 @@
   ![History after merging dumbidea and iss91v2](./img/topic-branches-2.png)
   `History after merging dumbidea and iss91v2`
 - It’s important to remember when you’re doing all this that these branches are completely local. When you’re branching and merging, everything is being done only in your Git repository — there is no communication with the server.
+
+---
