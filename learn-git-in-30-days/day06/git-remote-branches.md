@@ -46,14 +46,19 @@ git checkout -b dev origin/dev
 ### 4. Pushing a New Local Branch to Remote
 
 ```bash
-git push origin new-feature
+git push -u origin iss53
+git push -u origin testing
 ```
+
+![git push -u origin iss53 && git push -u origin testing](./img/pushing-a-new-local-branch-to-remote.png)
 
 ### 5. Deleting a Remote Branch
 
 ```bash
-git push origin --delete old-feature
+git push origin --delete iss53
 ```
+
+![git push origin --delete iss53](./img/deleting-a-remote-branch.png)
 
 ### 6. Tracking a Remote Branch
 
