@@ -30,8 +30,17 @@ git push origin feature/login-form
 
 ![git-checkout-feature-login-form.png](./img/git-checkout-feature-login-form.png)
 ![check current branch](./img/check-current-branch.png)
+![mg/first-commit-and-push-from-feature-login-form.png](./img/first-commit-and-push-from-feature-login-form.png)
 
 Then go to GitHub and click **"Compare & Pull Request"**.
+![compair-and-pull-request-option-on-GitHub.png](./img/compair-and-pull-request-option-on-GitHub.png)
+![compair-and-pull-request-option-on-GitHub-1.png](./img/compair-and-pull-request-option-on-GitHub-1.png)
+![compair-and-pull-request-option-on-GitHub-2.png](./img/compair-and-pull-request-option-on-GitHub-2.png)
+![compair-and-pull-request-option-on-GitHub-3.png](./img/compair-and-pull-request-option-on-GitHub-3.png)
+![compair-and-pull-request-option-on-GitHub-4.png](./img/compair-and-pull-request-option-on-GitHub-4.png)
+![img/compair-and-pull-request-option-on-GitHub-5.png](./img/compair-and-pull-request-option-on-GitHub-5.png)
+![compair-and-pull-request-option-on-GitHub-6.png](./img/compair-and-pull-request-option-on-GitHub-6.png)
+![compair-and-pull-request-option-on-GitHub-7.png](./img/compair-and-pull-request-option-on-GitHub-7.png)
 
 ---
 
