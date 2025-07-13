@@ -1,4 +1,3 @@
-
 # 🌟 GitHub Pull Requests, Forks, and Labeling – Complete Guide
 
 ## 📌 What is a Pull Request (PR)?
@@ -6,6 +5,7 @@
 A **Pull Request (PR)** is a request to merge changes from one branch (usually in a feature branch) into another (commonly the `main` or `develop` branch).
 
 ### ✅ Use Cases
+
 - Collaborating in teams
 - Reviewing code before merging
 - CI/CD testing before integration
@@ -20,10 +20,16 @@ A **Pull Request (PR)** is a request to merge changes from one branch (usually i
 ```bash
 # Example Git commands
 git checkout -b feature/login-form
+# Switched to a new branch 'feature/login-form'
+# Verify branch
+git branch
 # make changes
 git commit -am "Add login form"
 git push origin feature/login-form
 ```
+
+![git-checkout-feature-login-form.png](./img/git-checkout-feature-login-form.png)
+![check current branch](./img/check-current-branch.png)
 
 Then go to GitHub and click **"Compare & Pull Request"**.
 
@@ -34,6 +40,7 @@ Then go to GitHub and click **"Compare & Pull Request"**.
 A **fork** is a personal copy of someone else's repository.
 
 When a contributor doesn’t have write access to the original repo, they:
+
 1. Fork the repo to their account
 2. Clone the forked repo locally
 3. Create a new branch and make changes
@@ -61,6 +68,7 @@ Then go to the original repo and click **"New Pull Request"**, select your fork/
 Labels in GitHub are colored tags used to categorize and prioritize **Issues** and **Pull Requests**.
 
 ### 🧾 Examples of Common Labels:
+
 - `bug`
 - `enhancement`
 - `documentation`
@@ -77,6 +85,7 @@ Labels in GitHub are colored tags used to categorize and prioritize **Issues** a
 ### 🧪 Use Case in Open Source Projects
 
 For example:
+
 - `bug`: Something isn't working
 - `good first issue`: Easy task for beginners
 - `help wanted`: Maintainer wants external help
@@ -93,6 +102,7 @@ For example:
 5. Once approved, the PR is merged
 
 You can also use:
+
 - **Reviewers**: Assign team members to review the PR
 - **Assignees**: Indicate who is responsible
 - **Projects/Milestones**: Attach PRs to sprints or releases
@@ -114,4 +124,3 @@ You can also use:
 - [GitHub Pull Requests](https://docs.github.com/en/pull-requests)
 - [Fork a Repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - [GitHub Label Management](https://docs.github.com/en/issues/using-labels-to-categorize-issues-and-pull-requests)
-
